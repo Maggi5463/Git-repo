@@ -1,0 +1,54 @@
+
+body{
+    background-color:bisque ;
+    margin: 0px;
+}
+.navbar ul{
+    list-style: none;
+    background-color:grey ;
+    padding:0px ;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: gray;
+}
+.navbar li{
+    float: left;
+}
+footer{
+    background-color: brown;
+}
+.sidebar{
+    background: linear-gradient(45deg,gray,deeppink);
+    float: right;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 5px 10px black;
+    height: 180vh;
+    margin-top:0px;
+}
+.sidebar a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+ 
+  margin-bottom: 0;
+}
+.sidebar video{
+    width: 250px;
+    height: 250px;
+    gap: 0px;
+}
+.Figure{
+    float: left;
+    border-radius: 2px;
+}

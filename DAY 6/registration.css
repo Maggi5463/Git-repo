@@ -1,0 +1,7 @@
+*{
+    background-color: burlywood;
+}
+.required::after {
+    content: ' *';
+    color: red;
+  }
